@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture			"models\redc_misc\doorline.vtf"
+
+	$allowalphatocoverage	1
+	$alphatest				1
+	$color2				"[.1 .1 .1]"
+	$bumpmap				"models\redc_misc\doorline_normal.vtf"
+
+}

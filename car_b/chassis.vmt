@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	$basetexture		"models\redc_misc\chassis.vtf"
+
+	$color2				"[1 1 1]"
+	$bumpmap			"models\redc_misc\chassis_normal.vtf"
+	$envmap				env_cubemap
+	$envmapsaturation	0
+	$envmaptint 		"[.25 .25 .25]"
+
+	Proxies
+	{
+		Equals
+		{
+			srcVar1		$color2
+			resultVar	$color
+		}
+	}
+}
